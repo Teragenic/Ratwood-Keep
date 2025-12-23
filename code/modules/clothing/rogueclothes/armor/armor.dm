@@ -459,12 +459,12 @@
 	slot_flags = ITEM_SLOT_ARMOR
 	name = "blacksteel half-plate"
 	desc = "A sturdy set of plate armor protecting only the chest and groin, smithed of rare blacksteel. This prestigious set of armor has a set of pauldrons."
-	body_parts_covered = CHEST|GROIN|VITALS
+	body_parts_covered = CHEST|GROIN|VITALS|ARMS
 	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT, BCLASS_TWIST)
-	icon = 'icons/roguetown/clothing/special/blkknight.dmi'
-	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/blkknight.dmi'
-	icon_state = "bs_halfplate"
-	item_state = "bs_halfplate"
+	icon = 'icons/roguetown/clothing/armor.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/armor.dmi'
+	icon_state = "bhalfplate"
+	item_state = "bhalfplate"
 	armor = list("blunt" = 80, "slash" = 100, "stab" = 80, "bullet" = 100, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 	allowed_race = CLOTHED_RACES_TYPES
 	nodismemsleeves = TRUE
@@ -478,6 +478,13 @@
 	armor_class = ARMOR_CLASS_HEAVY
 	w_class = WEIGHT_CLASS_BULKY
 	clothing_flags = CANT_SLEEP_IN
+
+/obj/item/clothing/suit/roguetown/armor/blacksteel/halfplate/ancient
+	icon = 'icons/roguetown/clothing/special/blkknight.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/blkknight.dmi'
+	icon_state = "bs_halfplate"
+	item_state = "bs_halfplate"
+
 
 /obj/item/clothing/suit/roguetown/armor/blacksteel/cuirass
 	slot_flags = ITEM_SLOT_ARMOR
