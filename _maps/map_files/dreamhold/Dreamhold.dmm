@@ -792,8 +792,7 @@
 /turf/open/floor/rogue/grassyel,
 /area/rogue/outdoors/river)
 "atW" = (
-/obj/structure/spacevine,
-/obj/machinery/light/rogue/torchholder,
+/obj/effect/wisp,
 /turf/open/water/river{
 	icon_state = "rockwd"
 	},
@@ -3166,6 +3165,12 @@
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/outdoors/woods{
 	first_time_text = "The Deepwoods"
+	})
+"buf" = (
+/obj/structure/roguetent,
+/turf/open/floor/rogue/twig/platform,
+/area/rogue/indoors/town{
+	droning_sound_dawn = 'sound/music/area/elrond.ogg'
 	})
 "buv" = (
 /obj/structure/glowshroom,
@@ -11218,14 +11223,10 @@
 	name = "Ravenloft Academy"
 	})
 "fam" = (
-/obj/structure/flora/newleaf{
-	dir = 1;
-	icon_state = "branch-extend"
-	},
+/obj/structure/roguetent,
 /turf/open/transparent/openspace,
-/area/rogue/outdoors{
-	first_time_text = "Stonehedge Borders";
-	name = "far stonehedge"
+/area/rogue/indoors/town{
+	droning_sound_dawn = 'sound/music/area/elrond.ogg'
 	})
 "far" = (
 /obj/structure/fluff/walldeco/stone{
@@ -14383,6 +14384,20 @@
 	first_time_text = "Stonehedge Borders";
 	name = "far stonehedge"
 	})
+"gtJ" = (
+/obj/structure/flora/newbranch/connector{
+	dir = 5;
+	icon_state = "corner-leaf1"
+	},
+/obj/structure/flora/newbranch/connector{
+	dir = 5;
+	icon_state = "corner-leaf1"
+	},
+/turf/open/transparent/openspace,
+/area/rogue/outdoors{
+	first_time_text = "Stonehedge Borders";
+	name = "far stonehedge"
+	})
 "gue" = (
 /obj/structure/flora/newtree,
 /turf/open/transparent/openspace,
@@ -14713,6 +14728,13 @@
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors/woods{
 	first_time_text = "The Deepwoods"
+	})
+"gEO" = (
+/turf/closed/wall/mineral/rogue/tent{
+	dir = 4
+	},
+/area/rogue/indoors/town{
+	droning_sound_dawn = 'sound/music/area/elrond.ogg'
 	})
 "gEU" = (
 /obj/structure/fluff/railing/border,
@@ -19431,6 +19453,13 @@
 	first_time_text = "Adventurers Guild";
 	name = "Adventurers Guild"
 	})
+"iKm" = (
+/obj/structure/bed/rogue/inn/wool,
+/obj/item/bedsheet/rogue/cloth,
+/turf/open/floor/rogue/twig/platform,
+/area/rogue/indoors/town{
+	droning_sound_dawn = 'sound/music/area/elrond.ogg'
+	})
 "iKo" = (
 /obj/structure/fluff/railing/border{
 	dir = 5
@@ -21802,6 +21831,13 @@
 "jMD" = (
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue/outdoors/caves)
+"jMY" = (
+/obj/structure/bed/rogue/inn/wool,
+/turf/open/transparent/openspace,
+/area/rogue/outdoors{
+	first_time_text = "Stonehedge Borders";
+	name = "far stonehedge"
+	})
 "jNa" = (
 /obj/structure/closet/crate/roguecloset/dark,
 /obj/item/clothing/suit/roguetown/shirt/belldress/purple,
@@ -24313,6 +24349,12 @@
 	first_time_text = "HALLOWED GROUND";
 	name = "HALLOWED GROUND"
 	})
+"kQP" = (
+/obj/structure/chair/stool/rogue,
+/turf/open/floor/rogue/twig/platform,
+/area/rogue/indoors/town{
+	droning_sound_dawn = 'sound/music/area/elrond.ogg'
+	})
 "kQQ" = (
 /obj/structure/flora/roguegrass,
 /obj/structure/flora/ausbushes/brflowers,
@@ -26130,6 +26172,12 @@
 	icon_state = "decostone-cand-blue"
 	},
 /area/rogue/outdoors/river)
+"lIN" = (
+/obj/machinery/light/rogue/hearth,
+/turf/open/floor/rogue/blocks/stone,
+/area/rogue/indoors/town{
+	droning_sound_dawn = 'sound/music/area/elrond.ogg'
+	})
 "lIY" = (
 /obj/structure/flora/grass/jungle/b{
 	pixel_y = 1
@@ -27660,10 +27708,13 @@
 	first_time_text = "The Great Tree"
 	})
 "mut" = (
-/obj/structure/flora/newleaf{
-	dir = 1;
-	icon_state = "branch-end1";
-	pixel_y = -14
+/obj/structure/fluff/railing/wood{
+	dir = 4;
+	layer = 2.8;
+	pixel_x = 8
+	},
+/obj/structure/flora/newbranch/connector{
+	icon_state = "center-leaf1"
 	},
 /turf/open/transparent/openspace,
 /area/rogue/outdoors{
@@ -30962,6 +31013,12 @@
 /turf/open/floor/rogue/grasscold,
 /area/rogue/outdoors/woods{
 	first_time_text = "The Twilight Woods"
+	})
+"nOG" = (
+/obj/structure/roguewindow/openclose,
+/turf/open/floor/rogue/twig/platform,
+/area/rogue/indoors/town{
+	droning_sound_dawn = 'sound/music/area/elrond.ogg'
 	})
 "nOK" = (
 /obj/machinery/light/rogue/wallfire/candle/blue,
@@ -34686,6 +34743,13 @@
 /area/rogue/indoors/town/garrison{
 	first_time_text = "Adventurers Guild";
 	name = "Adventurers Guild"
+	})
+"puG" = (
+/turf/closed/wall/mineral/rogue/tent{
+	dir = 8
+	},
+/area/rogue/indoors/town{
+	droning_sound_dawn = 'sound/music/area/elrond.ogg'
 	})
 "pvc" = (
 /obj/structure/bed/rogue/shit,
@@ -39237,6 +39301,11 @@
 /obj/effect/decal/stone/blockedge,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/caves)
+"rph" = (
+/turf/closed/wall/mineral/rogue/tent,
+/area/rogue/indoors/town{
+	droning_sound_dawn = 'sound/music/area/elrond.ogg'
+	})
 "rpr" = (
 /obj/structure/chair/bench/church/smallbench{
 	dir = 4
@@ -42077,6 +42146,21 @@
 /turf/open/floor/rogue/shroud,
 /area/rogue/outdoors/woods{
 	first_time_text = "The Twilight Woods"
+	})
+"sEc" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_x = 1;
+	pixel_y = 7
+	},
+/obj/structure/flora/newbranch/connector{
+	icon_state = "center-leaf1"
+	},
+/turf/open/transparent/openspace,
+/area/rogue/outdoors{
+	first_time_text = "Stonehedge Borders";
+	name = "far stonehedge"
 	})
 "sEn" = (
 /obj/structure/table/wood{
@@ -47506,6 +47590,12 @@
 	icon_state = "rockwd"
 	},
 /area/rogue/under/cavewet)
+"uYK" = (
+/obj/structure/closet/crate/chest,
+/turf/open/floor/rogue/twig/platform,
+/area/rogue/indoors/town{
+	droning_sound_dawn = 'sound/music/area/elrond.ogg'
+	})
 "uYM" = (
 /obj/structure/closet/dirthole/closed/loot,
 /turf/open/floor/rogue/dirt/road,
@@ -48731,6 +48821,12 @@
 /area/rogue/outdoors{
 	first_time_text = "Stonehedge Borders";
 	name = "far stonehedge"
+	})
+"vDE" = (
+/obj/structure/table/wood/crafted,
+/turf/open/floor/rogue/twig/platform,
+/area/rogue/indoors/town{
+	droning_sound_dawn = 'sound/music/area/elrond.ogg'
 	})
 "vEh" = (
 /obj/structure/handcart,
@@ -52782,6 +52878,12 @@
 /area/rogue/outdoors/woods{
 	first_time_text = "The Twilight Woods"
 	})
+"xzA" = (
+/obj/structure/closet/crate/roguecloset,
+/turf/open/floor/rogue/twig/platform,
+/area/rogue/indoors/town{
+	droning_sound_dawn = 'sound/music/area/elrond.ogg'
+	})
 "xzF" = (
 /obj/effect/wisp,
 /turf/open/floor/rogue/cobblerock,
@@ -53040,6 +53142,13 @@
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/woods{
 	first_time_text = "The Twilight Woods"
+	})
+"xEy" = (
+/turf/closed/wall/mineral/rogue/tent{
+	dir = 1
+	},
+/area/rogue/indoors/town{
+	droning_sound_dawn = 'sound/music/area/elrond.ogg'
 	})
 "xEF" = (
 /obj/structure/fluff/railing/border,
@@ -53779,6 +53888,20 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/woods{
 	first_time_text = "The Twilight Woods"
+	})
+"xVD" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8;
+	pixel_x = -5;
+	pixel_y = -1
+	},
+/obj/structure/flora/newbranch/connector{
+	icon_state = "center-leaf1"
+	},
+/turf/open/transparent/openspace,
+/area/rogue/outdoors{
+	first_time_text = "Stonehedge Borders";
+	name = "far stonehedge"
 	})
 "xVF" = (
 /obj/structure/spacevine,
@@ -104733,7 +104856,7 @@ rps
 rps
 rps
 rps
-rps
+atW
 vVw
 vVw
 prw
@@ -104934,7 +105057,7 @@ rps
 ayy
 rps
 rps
-atW
+ayy
 rps
 vVw
 vVw
@@ -145896,7 +146019,7 @@ mRI
 rth
 vVw
 vVw
-xDh
+oKu
 xDh
 oxf
 oxf
@@ -147512,7 +147635,7 @@ nXV
 nMO
 vVw
 vVw
-vVw
+rKO
 rps
 rps
 iFE
@@ -180843,7 +180966,7 @@ bcc
 bcc
 bcc
 bcc
-bcc
+gue
 bcc
 bcc
 bcc
@@ -182459,7 +182582,7 @@ rAz
 bcc
 bcc
 bcc
-bcc
+gue
 bcc
 bcc
 bcc
@@ -215387,10 +215510,10 @@ tVx
 dVh
 aZy
 aZy
-aZy
-vYE
-vYE
-dbf
+dDo
+jaC
+dDo
+dDo
 mKI
 ebN
 klW
@@ -215589,10 +215712,10 @@ dVh
 elb
 aZy
 aZy
-aZy
-eCe
-yec
-ntf
+dDo
+eCz
+eCz
+dDo
 wcD
 qzW
 jQX
@@ -215791,10 +215914,10 @@ dVh
 aZy
 aZy
 aZy
-aZy
-aZy
-vYE
-vYE
+nOG
+uYK
+eCz
+jwq
 jQX
 oZz
 tUI
@@ -215993,10 +216116,10 @@ aZy
 aZy
 aZy
 aZy
-aZy
-aZy
-aZy
-eCe
+dDo
+xzA
+eCz
+dDo
 dSz
 kTR
 jQX
@@ -216195,10 +216318,10 @@ aZy
 aZy
 aZy
 aZy
-aZy
-aZy
-aZy
-aZy
+nOG
+iKm
+eCz
+eza
 aZy
 aZy
 jQX
@@ -216397,10 +216520,10 @@ aZy
 aZy
 aZy
 aZy
-aZy
-aZy
-aZy
-aZy
+dDo
+fzJ
+dDo
+dDo
 aZy
 itq
 jQX
@@ -216602,7 +216725,7 @@ aZy
 aZy
 aZy
 aZy
-aZy
+pLu
 vYE
 qzW
 jQX
@@ -216803,7 +216926,7 @@ aZy
 aZy
 aZy
 aZy
-aZy
+pLu
 vYE
 yec
 qzW
@@ -217004,7 +217127,7 @@ aZy
 aZy
 aZy
 aZy
-aZy
+pLu
 vYE
 yec
 fnR
@@ -217205,8 +217328,8 @@ aZy
 aZy
 aZy
 aZy
-aZy
-aZy
+pLu
+vYE
 vYE
 vYE
 dRN
@@ -217405,12 +217528,12 @@ pnv
 aZy
 aZy
 aZy
-aZy
-aZy
-aZy
-aZy
-aZy
-vYE
+pLu
+ozc
+puG
+puG
+puG
+puG
 vYE
 egp
 qzW
@@ -217608,12 +217731,12 @@ aZy
 aZy
 aZy
 vYE
-vYE
-aZy
-aZy
-aZy
-aZy
-vYE
+xEy
+vDE
+lIN
+eCz
+eCz
+rph
 qzW
 jQX
 jQX
@@ -217806,15 +217929,15 @@ tJb
 qcP
 ffP
 giH
+jMY
 aZy
-aZy
-aZy
+pLu
 vYE
-vYE
-nDX
-aZy
-aZy
-mut
+xEy
+kQP
+eCz
+eCz
+eCz
 fam
 jQX
 fgg
@@ -218012,12 +218135,12 @@ aZy
 aZy
 vYE
 vYE
-egp
-lQB
-itq
-aZy
-aZy
-aZy
+xEy
+buf
+gEO
+gEO
+gEO
+oZz
 dSz
 jQX
 rKb
@@ -218414,7 +218537,7 @@ aMz
 pnv
 aZy
 aZy
-aZy
+eCe
 vYE
 qzW
 oZz
@@ -218617,7 +218740,7 @@ pnv
 aZy
 aZy
 aZy
-aZy
+gtJ
 qzW
 jQX
 jQX
@@ -219226,7 +219349,7 @@ aZy
 aZy
 aZy
 aZy
-aZy
+eCe
 qzW
 eGO
 vYE
@@ -220640,8 +220763,8 @@ aZy
 aZy
 aZy
 aZy
-aZy
-itq
+pLu
+mut
 qzW
 oZz
 oZz
@@ -221051,7 +221174,7 @@ aOE
 oZz
 qzW
 jQX
-rKb
+sEc
 aZy
 aZy
 qYZ
@@ -221251,9 +221374,9 @@ rKb
 aZy
 aZy
 aZy
-uFg
-uFg
-aZy
+xVD
+xVD
+fMa
 aZy
 aZy
 aZy
